@@ -1,32 +1,62 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+build*/
+bin/
+.directory
+.mailmap
+*.orig
+*.rej
+*~
+.hg/
+*.kdev*
+*.bak
+*.patch
+*.diff
+*.REMOTE.*
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.vcxproj
+*.vcxproj.*
+*.rule
+*.bin
+*.log
+*.c
+*.check_cache
+*.stamp.*
+*.stamp
+*.sln
+*.dep
+*.rc
+*.autosave
+/dep/mysqllite/config.h
+my_config.h
+mysql_version.h
+revision.h
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
